@@ -56,7 +56,8 @@ main {
 }
 main > h1 {
   background-color: #df9292d0;
-  margin: 0px 200px 10px 200px;
+  display: block;
+  margin: auto;
   border-radius: 20px;
   padding: 10px;
   font-size: 2em;
@@ -90,11 +91,13 @@ main strong {
 main img {
   display: block;
   margin: auto;
+  margin-top: 10px;
   padding-bottom: 20px;
 }
 main img.eu {
   padding-top: 50px;
-  min-width: 600px;
+  max-width: 600px;
+  min-width: 300px;
   display: block;
   margin: auto;
 }
